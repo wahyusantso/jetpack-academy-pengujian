@@ -13,6 +13,7 @@ import com.home.projectjetpack.R
 import com.home.projectjetpack.data.CourseEntity
 import com.home.projectjetpack.databinding.ActivityDetailCourseBinding
 import com.home.projectjetpack.databinding.ContentDetailCourseBinding
+import com.home.projectjetpack.ui.reader.CourseReaderActivity
 
 class DetailCourseActivity : AppCompatActivity() {
 
