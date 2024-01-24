@@ -9,6 +9,7 @@ import com.bumptech.glide.request.RequestOptions
 import com.home.projectjetpack.R
 import com.home.projectjetpack.data.CourseEntity
 import com.home.projectjetpack.databinding.ItemsAcademyBinding
+import com.home.projectjetpack.ui.detail.DetailCourseActivity
 
 class AcademyAdapter: RecyclerView.Adapter<AcademyAdapter.CourseViewHolder>() {
     private var listCourses = ArrayList<CourseEntity>()

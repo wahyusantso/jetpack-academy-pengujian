@@ -9,6 +9,7 @@ import com.bumptech.glide.request.RequestOptions
 import com.home.projectjetpack.R
 import com.home.projectjetpack.data.CourseEntity
 import com.home.projectjetpack.databinding.ItemsBookmarkBinding
+import com.home.projectjetpack.ui.detail.DetailCourseActivity
 
 class BookmarkAdapter(private val callback: BookmarkFragmentCallback) : RecyclerView.Adapter<BookmarkAdapter.CourseViewHolder>() {
     private val listCourses = ArrayList<CourseEntity>()
